@@ -19,8 +19,8 @@
     },
     "installer": {
         "script": [
-            "Move-Item \"$dir\\BaiduPCS-Go-*\\*\" \"$dir\\\" -Force",
-            "Remove-Item \"$dir\\BaiduPCS-Go-*\" -Force "
+            "Move-Item \"$dir\\BaiduPCS-Go-*\\*\" \"$dir\\\" -Force | Out-Null",
+            "Remove-Item \"$dir\\BaiduPCS-Go-*\" -Force | Out-Null"
         ]
     },
     "pre_install": [
