@@ -14,10 +14,7 @@
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" -ItemType file | Out-Null }",
-    "bin": [
-        "xray.exe",
-        "wxray.exe"
-    ],
+    "env_add_path": ".",
     "persist": [
         "config.json",
         "geoip.dat",
