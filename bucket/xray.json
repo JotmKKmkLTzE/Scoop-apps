@@ -1,6 +1,6 @@
 {
     "version": "1.8.4",
-    "description": "A platform for building proxies to bypass network restrictions",
+    "description": "Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.",
     "homepage": "https://github.com/XTLS/Xray-core",
     "license": "MPL-2.0",
     "architecture": {
