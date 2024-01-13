@@ -16,6 +16,7 @@
     "pre_install": [
         "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" -ItemType file | Out-Null }",
         "$process_xray = Get-Process -name 'wxray' -ErrorAction SilentlyContinue",
+        "Write-Output 'run it'",
         "if ($process_xray) {  Stop-Process -Id $process_xray.Id && Write-Output 'wxray hes been stoped'}",
         "$process_xray = Get-Process -name 'xray' -ErrorAction SilentlyContinue",
         "if ($process_xray) {  Stop-Process -Id $process_xray.Id && Write-Output 'wxray hes been stoped'}"
