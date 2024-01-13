@@ -13,7 +13,18 @@
             "hash": "sha512:f4853d53886fb3f8100ba8c9437d6cd5eb70dbfe773f472ad4598ec276f7719ce09a4886bd26f2a2cf82fdd7e311bb505e1ee7c776d2401dba90d41c241e3503"
         }
     },
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" -ItemType file | Out-Null }",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" -ItemType file | Out-Null }",
+        "$process_xray = Get-Process -name 'wxray' -ErrorAction SilentlyContinue",
+        "if ($process_xray) {  Stop-Process -Id $process_xray.Id && Write-Output 'wxray hes been stoped'}",
+        "$process_xray = Get-Process -name 'xray' -ErrorAction SilentlyContinue",
+        "if ($process_xray) {  Stop-Process -Id $process_xray.Id && Write-Output 'wxray hes been stoped'}"
+    ],
+    "post_install":[
+        "wxray.exe",
+        "$process_xray = Get-Process -name 'wxray' -ErrorAction SilentlyContinue",
+        "if ($process_xray) { Write-Output 'wxray has been started. If you don't need it, stop it manually'}"
+    ],
     "env_add_path": ".",
     "persist": [
         "config.json",
