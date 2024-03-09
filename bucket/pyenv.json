@@ -19,7 +19,7 @@
     "env_set": {
         "PYENV": "$dir\\pyenv-win",
         "PYENV_ROOT": "$dir\\pyenv-win",
-        "PYENV_HOME": "$dir\\pyenv-win"，
+        "PYENV_HOME": "$dir\\pyenv-win",
         "PYTHON_BUILD_MIRROR_URL": "https://pypi.tuna.tsinghua.edu.cn/simple/"
     },
     "persist": [
