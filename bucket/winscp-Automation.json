@@ -4,7 +4,7 @@
     "homepage": "https://winscp.net",
     "license": "GPL-3.0-or-later",
     "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/6.3.2/WinSCP-6.3.2-Automation.zip",
-    "hash": "bf1e3fa79d2d2567a7a47a5a34a683c61f6d8502e86dd8fe6394c1f33cad76eb",
+    "hash": "9b98b84930d5ed754bbdadc17b3caaac18fe7c271a4d4bf59143dce37fa92e40",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
         "    @(",
