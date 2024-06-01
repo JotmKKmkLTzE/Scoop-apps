@@ -1,16 +1,16 @@
 {
-    "version": "2.7.0",
+    "version": "2.8.0",
     "homepage": "https://github.com/lyswhut/lx-music-desktop",
     "description": "a free & open source music finder",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.7.0/lx-music-desktop-v2.7.0-win_x64-green.7z",
-            "hash": "md5:5ed12d746c75d50c975b52ee29c11728"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.8.0/lx-music-desktop-v2.8.0-win_x64-green.7z",
+            "hash": "md5:eae2b71dec76e155790e18d55a9aa391"
         },
         "arm64": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.7.0/lx-music-desktop-v2.7.0-win_arm64-green.7z",
-            "hash": "md5:69ec1bf2312c7016afca517c4b2e0fe2"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.8.0/lx-music-desktop-v2.8.0-win_arm64-green.7z",
+            "hash": "md5:3675e2cfcab2c3b8325e11bedce21681"
         }
     },
     "shortcuts": [
