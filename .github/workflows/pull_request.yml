@@ -1,5 +1,9 @@
 on:
+<<<<<<< HEAD
   pull_request:
+=======
+  pull_request_target:
+>>>>>>> sync-template
     types: [opened]
 name: Pull Requests
 jobs:

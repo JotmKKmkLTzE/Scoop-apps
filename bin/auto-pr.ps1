@@ -1,6 +1,10 @@
 param(
     # overwrite upstream param
+<<<<<<< HEAD
     [String]$upstream = "JotmKKmkLTzE/Scoop-apps:main"
+=======
+    [String]$upstream = "<username>/<bucketname>:main"
+>>>>>>> sync-template
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }

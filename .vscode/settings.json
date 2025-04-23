@@ -15,6 +15,10 @@
             ]
         }
     ],
+<<<<<<< HEAD
+=======
+    "files.insertFinalNewline": true,
+>>>>>>> sync-template
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,

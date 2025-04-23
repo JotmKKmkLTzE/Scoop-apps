@@ -22,12 +22,18 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 6. Create new manifests by copying `bucket/app-name.json.template` to
    `bucket/<app-name>.json`.
 7. Commit and push changes.
+<<<<<<< HEAD
+=======
+8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
+   topic `scoop-bucket` to your repository.
+>>>>>>> sync-template
 
 ## How do I install these manifests?
 
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
+<<<<<<< HEAD
 scoop bucket add JotmKKmkLTzE https://github.com/JotmKKmkLTzE/Scoop-apps
 scoop install JotmKKmkLTzE/<manifestname>
 ```
@@ -36,6 +42,12 @@ scoop install JotmKKmkLTzE/<manifestname>
 - baidupcs-go
 - seam-GUI
 
+=======
+scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
+scoop install <bucketname>/<manifestname>
+```
+
+>>>>>>> sync-template
 ## How do I contribute new manifests?
 
 To make a new manifest contribution, please read the [Contributing
