@@ -47,7 +47,6 @@ scoop install JotmKKmkLTzE/<manifestname>
 - yt-dlp-nightly.json
 
 ```
-
 ## How do I contribute new manifests?
 
 To make a new manifest contribution, please read the [Contributing
