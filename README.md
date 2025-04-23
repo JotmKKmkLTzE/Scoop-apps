@@ -36,10 +36,16 @@ scoop install JotmKKmkLTzE/<manifestname>
 
 ## Manifests list
 - baidupcs-go
+- lx-music.json
+- peerbanhelper.json
+- qbittorrent-enhanced.json
+- qbittorrent.json
+- seam-CLI.json
 - seam-GUI
+- winscp-Automation.json
+- xray.json
+- yt-dlp-nightly.json
 
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
 ```
 
 ## How do I contribute new manifests?
