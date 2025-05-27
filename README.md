@@ -36,15 +36,16 @@ scoop install JotmKKmkLTzE/<manifestname>
 
 ## Manifests list
 - baidupcs-go
-- lx-music.json
-- peerbanhelper.json
-- qbittorrent-enhanced.json
-- qbittorrent.json
-- seam-CLI.json
+- lx-music
+- peerbanhelper
+- qbittorrent-enhanced
+- qbittorrent
+- seam-CLI
 - seam-GUI
-- winscp-Automation.json
-- xray.json
-- yt-dlp-nightly.json
+- winscp-Automation
+- xray
+- yt-dlp-nightly
+- dart-simple-live
 
 ```
 ## How do I contribute new manifests?
