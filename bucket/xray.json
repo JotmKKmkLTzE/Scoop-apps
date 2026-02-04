@@ -1,16 +1,16 @@
 {
-    "version": "26.2.2",
+    "version": "26.2.4",
     "description": "Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.",
     "homepage": "https://github.com/XTLS/Xray-core",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/XTLS/Xray-core/releases/download/v26.2.2/Xray-windows-64.zip",
-            "hash": "sha512:796dfd0a3a824f79e509d94ed321ed7654ff8bc6ddfc5e47232147bb88af2418c6a3528a71af05a30c6eaeac4e18e979733ad3f4fc5df4c309bdbdf342650b48"
+            "url": "https://github.com/XTLS/Xray-core/releases/download/v26.2.4/Xray-windows-64.zip",
+            "hash": "sha512:afd611218f20f49b781e432e2971eeeb98e8e4fd13f05acd9cc110c22a54cfb2bdaae4d34c746377e4398b5167181d2e69aacabb47c75ecb93a1ec531c2d3607"
         },
         "32bit": {
-            "url": "https://github.com/XTLS/Xray-core/releases/download/v26.2.2/Xray-windows-32.zip",
-            "hash": "sha512:5672814279fcb875266ac389fa5fb516c0eebe3f21eb311011fa7ce582c65aff066f4b77ffad8b46aca2856b45acd97ec3dfee5c59cbf7bb4e0a852a403b6e23"
+            "url": "https://github.com/XTLS/Xray-core/releases/download/v26.2.4/Xray-windows-32.zip",
+            "hash": "sha512:e1f3c54cb86d71a5405acf96612a99380f0bf72dd889988688eb1c80ee758b5309c7e3096946637dbf377b80464f67c530ee47510974d96381378d121481678e"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" -ItemType file | Out-Null }",
