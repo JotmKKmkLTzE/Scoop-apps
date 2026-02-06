@@ -26,6 +26,7 @@
             "Tenacity"
         ]
     ],
+    "persist": "Portable Settings",
     "checkver": {
         "url": "https://codeberg.org/tenacityteam/tenacity/releases",
         "regex": "tag/v([\\w.-]+)"
