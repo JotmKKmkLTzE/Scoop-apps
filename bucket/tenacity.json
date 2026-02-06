@@ -29,7 +29,7 @@
     "persist": "Portable Settings",
     "checkver": {
         "url": "https://codeberg.org/tenacityteam/tenacity/releases",
-        "regex": "^(?!.*alpha)tag/v([\\w.-]+)"
+        "regex": "(?!.*alpha)tag/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
